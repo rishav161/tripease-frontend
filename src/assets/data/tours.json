@@ -1,0 +1,129 @@
+[
+{
+  "title": "Westminster Bridge",
+  "city": "London",
+  "address": "Somewhere in London",
+  "distance": 6800,
+  "price": 70000,
+  "maxGroupSize": 10,
+  "desc": "This is the description",
+  "reviews": [
+    {
+      "name": "John Doe",
+      "rating": 4.6
+    }
+  ],
+  "photo": "/tour-images/tour-img01.jpg",
+  "featured": true
+},
+
+
+  {
+    "title": "Bali, Indonesia",
+    "city": "Bali",
+    "address": "Somewhere in Indonesia",
+    "distance": 5800, 
+    "price": 50000, 
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+    "photo": "/tour-images/tour-img02.jpg",
+    "featured": true
+  },
+  {
+    "title": "Snowy Mountains, Thailand",
+    "city": "Bangkok",
+    "address": "Somewhere in Thailand",
+    "distance": 4500, 
+    "price": 40000, 
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+    "photo": "/tour-images/tour-img03.jpg",
+    "featured": true
+  },
+  {
+    "title": "Beautiful Sunrise, Thailand",
+    "city": "Phuket",
+    "address": "Somewhere in Thailand",
+    "distance": 4800, 
+    "price": 45000, 
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+    "photo": "/tour-images/tour-img04.jpg",
+    "featured": true
+  },
+  {
+    "title": "Nusa Pendia Bali, Indonesia",
+    "city": "Bali",
+    "address": "Somewhere in Indonesia",
+    "distance": 5800, 
+    "price": 55000, 
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+    "photo": "/tour-images/tour-img05.jpg",
+    "featured": true
+  },
+  {
+    "title": "Cherry Blossoms Spring",
+    "city": "Tokyo",
+    "address": "Somewhere in Japan",
+    "distance": 7000, 
+    "price": 90000, 
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+    "photo": "/tour-images/tour-img06.jpg",
+    "featured": true
+  },
+  {
+    "title": "Holmen Lofoten, France",
+    "city": "Paris",
+    "address": "Somewhere in France",
+    "distance": 7500, 
+    "price": 80000, 
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+    "photo": "/tour-images/tour-img07.jpg",
+    "featured": true
+  },
+  {
+    "title": "Snowy Mountains, Thailand",
+    "city": "Bangkok",
+    "address": "Somewhere in Thailand",
+    "distance": 4500, 
+    "price": 42000, 
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+    "photo": "/tour-images/tour-img03.jpg",
+    "featured": true
+  },
+  {
+    "title": "Jaflong, Sylhet",
+    "city": "Sylhet",
+    "address": "Somewhere in Sylhet",
+    "distance": 2500, 
+    "price": 15000, 
+    "maxGroupSize": 5,
+    "desc": "this is the description",
+    "reviews": [],
+    "photo": "/tour-images/tour-img08.jpg",
+    "featured": false
+  },
+  {
+    "title": "Cox's Bazar Sea Beach",
+    "city": "Chittagong",
+    "address": "Somewhere in Chittagong",
+    "distance": 2800, 
+    "price": 18000, 
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+    "photo": "/tour-images/tour-img09.jpg",
+    "featured": false
+  }
+]
