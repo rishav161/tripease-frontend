@@ -1,7 +1,7 @@
 .header{
     width: 100%;
-    height: 80px;
-    line-height: 80px;
+    height: 35px;
+    line-height: 35px;
 }
 .logo img{
     width: 30%;;
@@ -51,13 +51,121 @@
     }
     .sticky__header{
         width: 100%;
-        height:80px;
-        line-height: 80px;
+        height: 65px;
+        line-height: 65px;
         background: #fff;
         position: sticky;
         top: 0;
         left:0;
         box-shadow: 3px 3px 8px -3px #ddd;
+        z-index: 999;
+    }
+
+    /* User Profile Dropdown */
+    .user__profile__wrapper {
+        position: relative;
+    }
+
+    .user__profile {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.35rem 0.8rem;
+        background: #f8f9fa;
+        border-radius: 20px;
+        transition: all 0.3s;
+    }
+
+    .user__profile:hover {
+        background: #e9ecef;
+    }
+
+    .user__avatar {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: var(--secondary-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .user__name {
+        font-weight: 500;
+        color: var(--heading-color);
+        font-size: 0.85rem;
+    }
+
+    .profile__dropdown {
+        position: absolute;
+        top: 110%;
+        right: 0;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        min-width: 220px;
+        z-index: 999;
+        animation: fadeIn 0.2s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .dropdown__header {
+        padding: 0.65rem 1rem;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    .dropdown__header h6 {
+        margin: 0;
+        font-weight: 600;
+        color: var(--heading-color);
+        font-size: 0.9rem;
+    }
+
+    .dropdown__header p {
+        margin: 0.2rem 0 0 0;
+        font-size: 0.8rem;
+        color: #6c757d;
+    }
+
+    .dropdown__divider {
+        height: 1px;
+        background: #e9ecef;
+    }
+
+    .dropdown__item {
+        width: 100%;
+        padding: 0.6rem 1rem;
+        border: none;
+        background: transparent;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--heading-color);
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+    .dropdown__item:hover {
+        background: #f8f9fa;
+        color: var(--secondary-color);
+    }
+
+    .dropdown__item i {
+        font-size: 1.1rem;
     }
 
 
