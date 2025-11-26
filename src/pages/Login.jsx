@@ -37,7 +37,13 @@ const Login = () => {
       });
 
       if (res.data.success) {
-        dispatch({ type: 'LOGIN_SUCCESS', payload: res.data.data });
+        dispatch({ 
+          type: 'LOGIN_SUCCESS', 
+          payload: {
+            user: res.data.data,
+            accessToken: res.data.token
+          }
+        });
         navigate('/');
       }
     } catch (err) {
